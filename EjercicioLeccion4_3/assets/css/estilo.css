@@ -1,0 +1,111 @@
+body{
+    position: static;
+    width: 1200px;
+    container: fluid;
+    display: block;
+    margin: auto;
+    background-color:lightblue;
+}
+
+header {
+   
+    
+    text-align: center;
+}
+
+nav {
+  
+    background-color: rgb(155, 190, 190);
+    height: 40px;
+
+}
+
+section {
+   
+    height: auto;
+    min-height: 600px;
+    width: 70%;
+
+}
+
+aside {
+   
+    height: auto;
+    min-height: 600px;
+    width: 30%;
+    float: left;
+
+}
+
+.columnas {
+    display: flex;
+    position: static;
+    
+    
+}
+
+footer {
+  
+    background-color: rgb(155, 190, 190);
+    height: 40px;
+}
+
+
+.listadesordenada {
+    list-style-type: none;
+
+}
+
+.lista {
+    padding-top: 10px;
+    float: left;
+    text-align: center;
+    width: 5em;
+    font-size: 18px;
+    color: rgb(78, 75, 75);
+}
+
+.columna {
+    column-count: 3;
+    column-gap: 1px;
+
+}
+
+.largo_div {
+    
+    height: auto;
+    min-height: 600px;
+    word-wrap: break-word;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 180px;
+    height: 180px;
+}
+h1{
+    color:red;
+}
+
+h2 {
+    color:  red;
+    margin-top: 0px;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    margin: 5px;
+    word-wrap: break-word;
+}
+.parrafo{
+    text-align: center;
+    padding-top: 10px;
+}
+.margen{
+    margin-top: 20px;
+}
+
+.margen_fo_na{
+margin-top: 10px;
+}
